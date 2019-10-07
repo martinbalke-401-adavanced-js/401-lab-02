@@ -1,7 +1,7 @@
 'use strict';
 
 const faker = require('faker');
-const Validator = require('../Validator.js');
+const Validator = require('../validator.js');
 
 
 
