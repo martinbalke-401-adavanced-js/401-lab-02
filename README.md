@@ -4,43 +4,45 @@
 
 ### Author: Martin Balke
 
-### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+### Lab Question:
+I think that validator should export an instance of the class for testing and the actual class when being used in a real world application
 
-#### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
+### Links and Resources
+* [submission PR](https://github.com/martinbalke-401-adavanced-js/401-lab-02/pull/2)
+* [travis](https://www.travis-ci.com/martinbalke-401-adavanced-js/401-lab-02)
+
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `validator.js`
+#### `validator class`
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+#### `list.js`
 
-###### `bar(array) -> array`
-Usage Notes or examples
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+#### `vehicles.js`
+##### `Vehicle class`
 
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+###### `drive() -> string`
+Run on car class to return string 'moving forward'
+
+###### `stop() -> string`
+Run on car class to return string 'stopping'
+
+#### `Car class`
+Extends the Vehicle class
+
+#### `Motorcycle class`
+Extends the Vehicle class
+
+###### `wheelie() -> string`
+Run on car class to return string 'Wheee!'
   
 #### Tests
-* How do you run tests?
-* What assertions were made?
+* How do you run tests?  
+NPM test
+* What assertions were made?  
+Vehicles class and vehicles constructor both function properly
 * What assertions need to be / should be made?
 
 #### UML
-Link to an image of the UML for your application and response to events
+![ListUML](assets/listuml.jpg)
