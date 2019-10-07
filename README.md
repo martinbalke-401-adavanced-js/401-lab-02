@@ -1,6 +1,6 @@
-# LAB - 00
+# LAB - 02
 
-## Proof of life server
+## Classes, inheritance, functional programmingi
 
 ### Author: Martin Balke
 
