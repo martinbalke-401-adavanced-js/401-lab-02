@@ -1,11 +1,8 @@
 {
-  "name": "401-lab-02",
+  "name": "vehicles",
   "version": "1.0.0",
-  "description": "## Proof of life server",
+  "description": "Vehicle class constructor module",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
     "start": "node index.js",
     "lint": "eslint '**/*.js'",
@@ -18,7 +15,6 @@
   "dependencies": {
     "eslint": "^6.5.1",
     "faker": "^4.1.0",
-    "jest": "^24.9.0",
-    "jsdoc": "^3.6.3"
+    "jest": "^24.9.0"
   }
 }

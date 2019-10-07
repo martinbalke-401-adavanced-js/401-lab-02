@@ -1,43 +1,48 @@
-# LAB - 00
+# LAB - 03
 
-## Proof of life server
+## Classes,Inheritance, Functional Programming
 
 ### Author: Martin Balke
 
-### Links and Resources
-* [submission PR]https://github.com/martinbalke-401-adavanced-js/401-lab00/pull/3
-* [travis]https://travis-ci.com/martinbalke-401-adavanced-js/401-lab00
-* [front-end]https://martin-balke-lab00.herokuapp.com/
+### Lab Question:
+I think that validator should export an instance of the class for testing and the actual class when being used in a real world application
 
-#### Documentation
-* [jsdoc](http://xyz.com) https://martin-balke-lab00.herokuapp.com/docs/
+### Links and Resources
+* [submission PR](https://github.com/martinbalke-401-adavanced-js/401-lab-02/pull/2)
+* [travis](https://www.travis-ci.com/martinbalke-401-adavanced-js/401-lab-02)
+
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `validator.js`
+#### `validator class`
 
-###### `isAlive(dead) -> boolean`
-Returns true/false to indicate server status
+#### `list.js`
 
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+#### `vehicles.js`
+##### `Vehicle class`
 
-#### Running the app
-* `npm start`
-* Endpoint: `/`
-  * Returns a boolean
-* Endpoint: `/docs`
-  * Returns a jsdoc documentations.
+###### `drive() -> string`
+Run on car class to return string 'moving forward'
+
+###### `stop() -> string`
+Run on car class to return string 'stopping'
+
+#### `Car class`
+Extends the Vehicle class
+
+#### `Motorcycle class`
+Extends the Vehicle class
+
+###### `wheelie() -> string`
+Run on car class to return string 'Wheee!'
   
 #### Tests
-* How do you run tests?
-Unit tests are done with npm test
-Lint tests are run with npm run lint
-* What assertions were made?
+* How do you run tests?  
+NPM test
+* What assertions were made?  
+Vehicles class and vehicles constructor both function properly
 * What assertions need to be / should be made?
 
 #### UML
-Link to an image of the UML for your application and response to events
+![ListUML](assets/listuml.jpg)
