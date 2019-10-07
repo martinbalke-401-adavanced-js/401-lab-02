@@ -1,24 +1,29 @@
-# LAB - 02
+# LAB - 03
 
-## Classes, inheritance, functional programmingi
+## Classes,Inheritance, Functional Programming
 
 ### Author: Martin Balke
 
 ### Links and Resources
-* [submission PR]https://github.com/martinbalke-401-adavanced-js/401-lab00/pull/3
-* [travis]https://travis-ci.com/martinbalke-401-adavanced-js/401-lab00
-* [front-end]https://martin-balke-lab00.herokuapp.com/
+* [submission PR](http://xyz.com)
+* [travis](http://xyz.com)
+* [back-end](http://xyz.com) (when applicable)
+* [front-end](http://xyz.com) (when applicable)
 
 #### Documentation
-* [jsdoc](http://xyz.com) https://martin-balke-lab00.herokuapp.com/docs/
+* [api docs](http://xyz.com) (API servers)
+* [jsdoc](http://xyz.com) (Server assignments)
+* [styleguide](http://xyz.com) (React assignments)
 
 ### Modules
 #### `modulename.js`
 ##### Exported Values and Methods
 
-###### `isAlive(dead) -> boolean`
-Returns true/false to indicate server status
+###### `foo(thing) -> string`
+Usage Notes or examples
 
+###### `bar(array) -> array`
+Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
@@ -27,15 +32,13 @@ Returns true/false to indicate server status
 
 #### Running the app
 * `npm start`
-* Endpoint: `/`
-  * Returns a boolean
-* Endpoint: `/docs`
-  * Returns a jsdoc documentations.
+* Endpoint: `/foo/bar/`
+  * Returns a JSON object with abc in it.
+* Endpoint: `/bing/zing/`
+  * Returns a JSON object with xyz in it.
   
 #### Tests
 * How do you run tests?
-Unit tests are done with npm test
-Lint tests are run with npm run lint
 * What assertions were made?
 * What assertions need to be / should be made?
 
